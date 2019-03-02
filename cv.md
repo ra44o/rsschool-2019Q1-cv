@@ -32,3 +32,6 @@ I had an experience of development on JavaScript during the last half a year. Th
 ### Education
 I'm a 4th year student of Belarusian National Technical University. My major is Automation of Technological Processes and Production.  
 I attended such events as MinskJS Meetup, Web Standards Days. I study online on such sites as HTML Academy, Code Academy, Freecodecamp, Codewars, Scrimba, Hexlet, LearnJavaScript and certainly YouTube.  
+
+### English
+I have an intermediate level of English. I have studied it for about 8 months in language school [Polyglot.by](https://polyglot.by/). I have a volunteering experience at different sports events. For example, at the FIBA U17 Women's Basketball World Cup 2018 where I had to translate and speak with foreign guests and players. I was also at the first [Linguafest.ru](http://linguafest.ru/) event last September.
