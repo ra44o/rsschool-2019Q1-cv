@@ -12,7 +12,6 @@ I have an intermediate level of English, so I can easily learn new skills and ke
 I can easily adapt to any conditions, I'm also a fast learner and good at team work.  
 
 ### Skills  
-
 * Languages: *JavaScript*
 * Other technologies: *HTML, CSS*
 * Module bundlers: *WebPack*
@@ -23,4 +22,9 @@ I can easily adapt to any conditions, I'm also a fast learner and good at team w
 
 ### Code examples
 * [Weather App](https://github.com/ra44o/weather-app)
-* [Clicker](https://github.com/ra44o/TMS/tree/react-counter/react-counter)
+* [Clicker](https://github.com/ra44o/TMS/tree/react-counter/react-counter)  
+
+### Experience
+I had an experience of development on JavaScript during the last half a year. There were different tasks at TeachMeSkills courses such as:  
+* [Weather App](https://github.com/ra44o/weather-app) was developed on pure JS. I was developing a web-application which could send a request with the API help, get a response, parsing it and displaying the data.
+* [Clicker](https://github.com/ra44o/TMS/tree/react-counter/react-counter) was developed with the help of React. It's a simple counter with a few buttons for increment, decrement and reset of the counter.
