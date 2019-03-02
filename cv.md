@@ -19,4 +19,8 @@ I can easily adapt to any conditions, I'm also a fast learner and good at team w
 * Frameworks: *React*
 * Control version systems: *Git*
 * Databases: *MySQL*
-* Software and tools: *Photoshop*
+* Software and tools: *Photoshop*  
+
+### Code examples
+* [Weather App](https://github.com/ra44o/weather-app)
+* [Clicker](https://github.com/ra44o/TMS/tree/react-counter/react-counter)
