@@ -1,0 +1,95 @@
+@font-face {
+  font-family: 'Maven Pro';
+  src: url('./assets/Mavenproregular.woff') format('woff'),
+        url('./assets/Mavenproregular.woff2') format('woff2');
+}
+
+html {
+  font-family: 'Maven Pro', 'Arial', sans-serif;
+  font-weight: normal;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.content-wrapper {
+  width: 1024px;
+}
+
+.header {
+  width: 100%;
+  text-align: center;
+}
+
+.info-wrapper {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.photo-menu-wrapper {
+  display: flex;
+  width: 270px;
+  /* height: 600px; */
+  flex-direction: column;
+  background-color: #cccc;
+}
+
+.h-line {
+  position: relative;
+  top: 20px;
+  width: 270px;
+  height: 1px;
+  background-color: rgb(122, 110, 109);
+}
+
+.v-line {
+  position: relative;
+  left: 19px;
+  width: 1px;
+  height: 180px;
+  background-color: rgb(122, 110, 109);
+}
+
+.dev-photo {
+  position: relative;
+  bottom: 180px;
+  margin: 45px 0 0 45px;
+  width: 180px;
+  height: 180px;
+  background-color: rgba(0, 255, 0, 0.5);
+}
+
+.menu {
+  position: relative;
+  bottom: 160px;
+  font-size: 18px;
+}
+
+ul {
+  margin: 0;
+  padding: 0 0 0 45px;
+}
+
+.menu-item, .menu-item > a {
+  list-style: none;
+  text-decoration: none;
+  color: #000;
+  padding: 20px 0 0 0;
+}
+
+.data-wrapper {
+  display: flex;
+  width: 754px;
+  height: 800px;
+  flex-direction: column;
+  background-color: #aaaa;
+}
+
+.name-surname {
+  text-align: center;
+}
