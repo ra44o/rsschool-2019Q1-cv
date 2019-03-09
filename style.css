@@ -34,7 +34,6 @@ body {
 .photo-menu-wrapper {
   display: flex;
   width: 270px;
-  /* height: 600px; */
   flex-direction: column;
   background-color: #cccc;
 }
@@ -85,7 +84,6 @@ ul {
 .data-wrapper {
   display: flex;
   width: 754px;
-  height: 800px;
   flex-direction: column;
   background-color: #aaaa;
 }
