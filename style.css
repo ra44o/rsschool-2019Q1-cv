@@ -1,7 +1,19 @@
 @font-face {
   font-family: 'Maven Pro';
-  src: url('./assets/Mavenproregular.woff') format('woff'),
-        url('./assets/Mavenproregular.woff2') format('woff2');
+  src: url('./assets/fonts/Mavenproregular.woff') format('woff'),
+        url('./assets/fonts/Mavenproregular.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'FontAwesome';
+  src: url('./assets/fonts/fontawesome-webfont.eot?v=4.7.0');
+  src: url('./assets/fonts/fontawesome-webfont.eot?#iefix&v=4.7.0') format('embedded-opentype'),
+        url('./assets/fonts/fontawesome-webfont.woff2?v=4.7.0') format('woff2'),
+        url('./assets/fonts/fontawesome-webfont.woff?v=4.7.0') format('woff'),
+        url('./assets/fonts/fontawesome-webfont.ttf?v=4.7.0') format('truetype'),
+        url('./assets/fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
 }
 
 html {
@@ -60,7 +72,9 @@ body {
   margin: 45px 0 0 45px;
   width: 180px;
   height: 180px;
-  background-color: rgba(0, 255, 0, 0.5);
+  background-image: url('./assets/photo_2019-03-02_18-22-10.jpg');
+  background-size: 150%;
+  background-position: center 20%;
 }
 
 .menu {
@@ -79,6 +93,11 @@ ul {
   text-decoration: none;
   color: #000;
   padding: 20px 0 0 0;
+  font-weight: bold;
+}
+
+.menu-item > a:hover {
+  color: green;
 }
 
 .data-wrapper {
@@ -87,7 +106,52 @@ ul {
   flex-direction: column;
   background-color: #aaaa;
 }
+.contacts,
+.summary,
+.skills,
+.code-examples,
+.experience,
+.education,
+.english {
+  box-sizing: border-box;
+  padding: 0 10px;
+}
+
+p {
+  text-align: justify;
+}
 
 .name-surname {
   text-align: center;
+}
+
+.contacts {
+  text-align: center;
+} 
+
+.fa {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: 2em;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  margin: 0 20px;
+}
+
+.fa-envelope:before {
+  content: "\f0e0";
+}
+
+.fa-telegram:before {
+  content: "\f2c6";
+}
+
+.fa-linkedin:before {
+  content: "\f0e1";
+}
+
+.fa-github:before {
+  content: "\f09b";
 }
