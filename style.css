@@ -1,0 +1,163 @@
+@font-face {
+  font-family: 'Maven Pro';
+  src: url('./assets/fonts/Mavenproregular.woff') format('woff'),
+        url('./assets/fonts/Mavenproregular.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'FontAwesome';
+  src: url('./assets/fonts/fontawesome-webfont.eot?v=4.7.0');
+  src: url('./assets/fonts/fontawesome-webfont.eot?#iefix&v=4.7.0') format('embedded-opentype'),
+        url('./assets/fonts/fontawesome-webfont.woff2?v=4.7.0') format('woff2'),
+        url('./assets/fonts/fontawesome-webfont.woff?v=4.7.0') format('woff'),
+        url('./assets/fonts/fontawesome-webfont.ttf?v=4.7.0') format('truetype'),
+        url('./assets/fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+html {
+  font-family: 'Maven Pro', 'Arial', sans-serif;
+  font-weight: normal;
+  color: #24292e;
+}
+
+body {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+}
+
+.content-wrapper {
+  width: 1024px;
+}
+
+.header,
+.name-surname,
+.contacts,
+.icon {
+  text-align: center;
+}
+
+.header {
+  width: 100%;
+}
+
+.info-wrapper {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.photo-menu-wrapper {
+  display: flex;
+  width: 270px;
+  flex-direction: column;
+}
+
+.h-line, .v-line {
+  position: relative;
+  background-color: rgb(122, 110, 109);
+}
+
+.h-line {
+  top: 20px;
+  width: 270px;
+  height: 1px;
+}
+
+.v-line {
+  left: 19px;
+  width: 1px;
+  height: 180px;
+}
+
+.dev-photo {
+  position: relative;
+  bottom: 180px;
+  margin: 45px 0 0 45px;
+  width: 180px;
+  height: 180px;
+  background-image: url('./assets/photo_2019-03-02_18-22-10.jpg');
+  background-size: 150%;
+  background-position: center 20%;
+}
+
+.menu {
+  position: relative;
+  bottom: 160px;
+  font-size: 18px;
+}
+
+ul {
+  margin: 0;
+  padding: 0 0 0 45px;
+}
+
+a {
+  text-decoration: none;
+  color: #24292e;
+}
+.inline-text-link, .menu-item > a:hover {
+  color: #0366d7;
+}
+
+.menu-item, .menu-item > a {
+  padding: 20px 0 0 0;
+  font-weight: bold;
+  list-style: none;
+}
+
+.data-wrapper {
+  display: flex;
+  width: 754px;
+  flex-direction: column;
+}
+.contacts,
+.summary,
+.skills,
+.code-examples,
+.experience,
+.education,
+.english {
+  padding: 0 10px;
+  box-sizing: border-box;
+}
+
+p {
+  text-align: justify;
+}
+
+.icon {
+  z-index: 1;
+  display: inline-block;
+  margin: 0 20px;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: 2em;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-envelope:before {
+  content: "\f0e0";
+}
+
+.icon-telegram:before {
+  content: "\f2c6";
+}
+
+.icon-linkedin:before {
+  content: "\f0e1";
+}
+
+.icon-github:before {
+  content: "\f09b";
+}
+
+.animation:hover {
+  z-index: 2;
+  transform: scale(1.2);
+  transition: all 0.3s ease 0s;
+}
