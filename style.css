@@ -132,7 +132,7 @@ p {
 
 .contacts {
   text-align: center;
-} 
+}
 
 .fa {
   display: inline-block;
@@ -143,6 +143,7 @@ p {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   margin: 0 20px;
+  z-index: 1;
 }
 
 .fa-envelope:before {
@@ -159,4 +160,10 @@ p {
 
 .fa-github:before {
   content: "\f09b";
+}
+
+.animation:hover {
+  transform: scale(1.2);
+  transition: all 0.3s ease 0s;
+  z-index: 10;
 }
